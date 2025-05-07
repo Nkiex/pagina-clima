@@ -6,7 +6,7 @@
     const error = document.querySelector('.error');
 
     async function verClima(city) {
-        const apiKey = 'pone tu api key aqui';
+        const apiKey = '605525e6282f6a6046ab32359cd7c7d3';
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric `;
 
         const respuesta = await fetch(apiUrl);
